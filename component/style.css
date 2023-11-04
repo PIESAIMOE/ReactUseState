@@ -1,0 +1,111 @@
+.todo-container,.form{
+    margin-top:8rem;
+    display: flex;
+    justify-content: center;  
+}
+
+.form_container{
+    padding:20px;
+    width:400px;
+    color: #fff;
+    border-radius:10px;
+    box-shadow: 1px 1px 5px 2px #696262;
+    background-color: #333;
+}
+.profile{
+    padding:20px;
+    width:500px;
+    height:500px;
+    font-size: large;
+    text-align: center;
+    color: #fff;
+    border-radius:10px;
+    background-color: #333;
+    position: absolute;
+    margin:10% 40%;
+}
+.profile .user_form{
+    width:100%;
+    height:400px;
+    font-size:large;
+    line-height:2;
+    border-radius:10px;
+    margin-top:20px;
+    border-radius:10px;
+    border:2px solid black;
+}
+.info{   
+    text-align: left;
+    margin-top:30px;
+    margin-left:30px;
+}
+h3{
+    color: rgb(250, 250, 250);
+    text-align: center;
+}
+.box{
+    font-size:large;
+    position: relative;
+    margin:20px;
+}
+.box input,textarea{
+    width: 100%;
+    margin-top:10px;
+    border:1px solid rgb(207, 206, 206);
+    padding:9px;
+    border-radius:5px;
+}
+.color{
+    margin-left:30px;
+}
+
+.list li{
+    position: relative;
+    margin:20px 0;
+    word-wrap:break-word;
+    padding-right:30px;
+    margin:20px 0;
+    padding:10px;
+    list-style:none;
+    background-color: #F1E4A0;
+    border-radius:5px;
+} 
+  
+.text{
+    margin-right:55px;
+    padding:10px;
+    color: #333;
+    word-wrap:break-word;
+    border:1px solid #e6cc4be3;
+    border-radius: 5px;
+}
+
+#dele{
+    position:absolute;
+    border:none;  
+    background:none;
+    color:#8b0909;
+    height:20px;
+    width:20px;
+    padding:5px;
+    right:5px;
+    top:10px;
+}
+
+#add,#logout{
+    color:#000000;
+    border: none;
+    font-size:12px;
+    margin-top: 10px;
+    padding:10px 15px;
+    border-radius:5px;
+    background:#96948e;
+   
+}
+.box #login{
+    color:#000000;
+    border: none;
+    background:#96948e;
+    font-size:15px;
+ 
+}
